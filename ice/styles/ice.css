@@ -1,0 +1,36 @@
+body {
+    background-color: pink;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+h1:hover{
+    color: black;
+}
+
+img {
+    display: block;
+    width: 20%;
+    margin: 0 auto
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    color: black;
+}
+
+.black{
+    color: black;
+}
