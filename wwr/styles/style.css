@@ -10,7 +10,8 @@ nav a {
     background-color: brown;
     color: white;
     text-decoration: none;
-    padding: 35px;
+    padding-right: 35px;
+    padding-left: 35px;
 }
 
 nav a:hover{
