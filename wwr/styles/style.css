@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Open+Sans:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +10,7 @@ nav a {
     background-color: brown;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -15,20 +18,35 @@ nav a:hover{
     color: yellow;
 }
 
+.home-title {
+    font-family: 'Macondo';
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 body {
-    background-color: brown;
-    color: white;
+    background-color: white;
+    color: green;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: brown;
-    color: white;
+    color: green;
+    font-family: 'Macondo', Sans-serif;
 }
 
 .book, .join{
     background-color: green;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -49,33 +67,78 @@ main section {
 }
 #background {
     height: 725px;
-    background-color: brown;
+    background-color: beige;
     color: white;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .msg {
-    background-color: brown;
+    background-color: beige;
     color: white;
+    font-family: 'Macondo';
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msp p {
+    padding-bottom: 15px;
+}
+
+
+p {
+    color: green;
 }
 
 footer {
     background-color: brown;
     color: white;
     text-decoration: underline;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
     text-decoration: none;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo, .icon{
     width: 80px;
 }
 
+.icon {
+    padding-top: 10px;
+}
+
+h2 {
+    margin: 0;
+    color: green;
+}
+
 h3{
     text-decoration: underline;
+    color: white;
 }
 
 a:hover{
     text-decoration: underline;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
 }
