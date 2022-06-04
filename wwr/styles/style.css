@@ -30,6 +30,11 @@ nav a:hover{
     margin-top: 10px;
 }
 
+.home-grid {
+    display: grid;
+    grid-template-columns: 10;
+}
+
 body {
     background-color: white;
     color: green;
