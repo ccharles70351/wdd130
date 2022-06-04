@@ -32,7 +32,7 @@ nav a:hover{
 
 .home-grid {
     display: grid;
-    grid-template-columns: 10;
+    grid-template-columns: 11;
 }
 
 body {
@@ -95,7 +95,7 @@ main section {
 
 .msg {
     background-color: beige;
-    color: white;
+    color: green;
     font-family: 'Macondo';
     font-size: .8em;
     line-height: 1.5em;
