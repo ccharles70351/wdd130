@@ -15,8 +15,7 @@ nav a {
     background-color: brown;
     color: white;
     text-decoration: none;
-    padding-right: 35px;
-    padding-left: 35px;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -32,7 +31,7 @@ nav a:hover{
 
 .home-grid {
     display: grid;
-    grid-template-columns: 11;
+    grid-template-columns: repeat(11, 1fr);
 }
 
 body {
@@ -118,6 +117,7 @@ footer {
     background-color: brown;
     color: white;
     text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -126,7 +126,8 @@ footer {
 }
 
 footer a{
-    text-decoration: none;
+    text-decoration-color: green;
+    color: green;
 }
 
 footer .social img {
@@ -215,4 +216,8 @@ main section img {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+}
+
+#hero-img {
+    width: 100%;
 }
