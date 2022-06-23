@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Home | The Process | Q&A | Contact Us</title>
+    <title>Q&A | The Process | Home</title>
 </head>
 <body>
     <div id="content">
@@ -27,20 +27,26 @@
         </div>
         <main>
             <!-- This is where new content goes for each subpage -->
-            <section>
-                <img src="images/ipad.jpg" alt="woman holding ipad">
-                <p class="elevator-pitch">Consider for a moment the information around you- perhaps you work in or own a business where information floats all around you; right<br>
-                    when you organize everything, a new wave of information rushes in and overwhelms you.<br>
-                    Or perhaps you might be an endless list-maker, who can never seem to keep recorded information organized and updated as you might like. What other information<br>
-                    might you like to have automatically sorted and updated for you?<br>
-                    That’s the difference this website makes in your life; that’s the impact this service could have on your life.<br>
-                    I develop programs that will compile and display information however you like.<br>
-                    Any sorting, comprehensive, and data-based interests are taken care of at your leisure.
-                </p>
-            </section>
-            <section>
-                <img src="images/database.jpg" alt="processing servers">
-            </section>
+            <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                 <li>
+                   <label for="name">Name:</label>
+                   <input type="text" id="name" name="user_name">
+                 </li>
+                 <li>
+                   <label for="mail">E-mail:</label>
+                   <input type="email" id="mail" name="user_email">
+                 </li>
+                 <li>
+                   <label for="msg">Message:</label>
+                   <textarea id="msg" name="user_message"></textarea>
+                 </li>
+                 <li class="button">
+                    <button type="submit">Send your message</button>
+                    </li>
+                </ul>
+               </form>
         </main>
         <footer>
             <h3>Organize &copy; 2022 - Colin Charles</h3>
