@@ -129,12 +129,15 @@ nav a {
 .qa-img p {
     grid-column-start: 3;
     grid-column-end: 5;
+    align-self: center;
+    font-size: xx-large;
 }
 
 .qa-content p {
     grid-column-start: 1;
     grid-column-end: 5;
     margin: 0 auto;
+    padding: 50px;
     
 }
 
