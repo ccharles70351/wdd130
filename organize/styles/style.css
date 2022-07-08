@@ -57,32 +57,12 @@ nav a {
     font-family: roboto;
     font-size: 1.5em;
     margin-top: 30px;
+    text-align: center;
 }
 
-/* .logo {
-    grid-column-start: 1;
-    grid-column-end: 2;
+#motto-msg h1 {
+    
 }
-
-.aindex {
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-.aqa {
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
-
-.aprocess {
-    grid-column-start: 4;
-    grid-column-end: 5;
-}
-
-.acontactus {
-    grid-column-start: 5;
-    grid-column-end: 6; 
-} */
 
 /* MAIN STYLING */
 
@@ -97,12 +77,14 @@ nav a {
 
 .home-pitch img {
     grid-column-start: 1;
-    grid-column-end: 2;
-    height: 250px;
+    grid-column-end: 3;
+    width: 100%; height: auto;
+    padding-top: 30px;
+    padding-right: 20px;
 }
 
 .home-pitch p {
-    grid-column-start: 2;
+    grid-column-start: 3;
     grid-column-end: 9;
 }
 
